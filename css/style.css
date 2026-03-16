@@ -410,6 +410,29 @@ a:hover {
   opacity: 1;
 }
 
+.footer-badge {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 20px;
+  padding-top: 16px;
+  border-top: 1px solid var(--border);
+  font-size: 0.75rem;
+  color: #484f58;
+}
+
+.footer-badge a {
+  color: #484f58;
+  display: inline-flex;
+  transition: color var(--transition);
+}
+
+.footer-badge a:hover {
+  color: var(--text-secondary);
+  opacity: 1;
+}
+
 /* ===== Animations ===== */
 .fade-in {
   opacity: 0;
