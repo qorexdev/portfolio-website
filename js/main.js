@@ -1,4 +1,3 @@
-// ===== Typing Effect =====
 const phrases = [
   'fullstack & mobile developer',
   'backend engineer',
@@ -40,7 +39,6 @@ document.addEventListener('DOMContentLoaded', () => {
   type();
 });
 
-// ===== Scroll Reveal =====
 const revealElements = document.querySelectorAll('.reveal');
 
 const revealObserver = new IntersectionObserver(
@@ -56,7 +54,6 @@ const revealObserver = new IntersectionObserver(
 
 revealElements.forEach((el) => revealObserver.observe(el));
 
-// ===== Mobile Navigation =====
 const navToggle = document.querySelector('.nav-toggle');
 const navLinks = document.querySelector('.nav-links');
 
@@ -72,7 +69,6 @@ navLinks.querySelectorAll('a').forEach((link) => {
   });
 });
 
-// ===== Active Nav Link on Scroll =====
 const sections = document.querySelectorAll('.section, .hero');
 
 const navObserver = new IntersectionObserver(

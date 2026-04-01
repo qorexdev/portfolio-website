@@ -1,4 +1,3 @@
-/* ===== Reset & Base ===== */
 *,
 *::before,
 *::after {
@@ -53,7 +52,6 @@ a:hover {
   padding: 0 24px;
 }
 
-/* ===== Navigation ===== */
 .nav {
   position: fixed;
   top: 0;
@@ -123,7 +121,6 @@ a:hover {
   transition: var(--transition);
 }
 
-/* ===== Hero ===== */
 .hero {
   min-height: 100vh;
   display: flex;
@@ -192,7 +189,6 @@ a:hover {
   line-height: 1.8;
 }
 
-/* ===== Button ===== */
 .btn {
   display: inline-flex;
   align-items: center;
@@ -214,7 +210,6 @@ a:hover {
   transform: translateY(-2px);
 }
 
-/* ===== Sections ===== */
 .section {
   padding: 100px 0;
 }
@@ -236,7 +231,6 @@ a:hover {
   max-width: 300px;
 }
 
-/* ===== About ===== */
 .about-content {
   max-width: 680px;
 }
@@ -248,7 +242,6 @@ a:hover {
   line-height: 1.8;
 }
 
-/* ===== Skills ===== */
 .skills-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
@@ -285,7 +278,6 @@ a:hover {
   background: var(--accent-dim);
 }
 
-/* ===== Projects ===== */
 .projects-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
@@ -364,7 +356,6 @@ a:hover {
   margin-right: 2px;
 }
 
-/* ===== Contact ===== */
 .contact-content {
   text-align: center;
   max-width: 500px;
@@ -378,7 +369,6 @@ a:hover {
   margin-bottom: 32px;
 }
 
-/* ===== Footer ===== */
 .footer {
   border-top: 1px solid var(--border);
   padding: 32px 0;
@@ -433,7 +423,6 @@ a:hover {
   opacity: 1;
 }
 
-/* ===== Animations ===== */
 .fade-in {
   opacity: 0;
   transform: translateY(20px);
@@ -464,7 +453,6 @@ a:hover {
   transform: translateY(0);
 }
 
-/* ===== Responsive ===== */
 @media (max-width: 768px) {
   .nav-links {
     display: none;
